@@ -17,12 +17,14 @@ public class Main {
         perro2.nombre = "Firulais";
         perro2.edad = 2;
         perro2.raza = "viejo pastor ingles";
-        perro2.tamanio = "pequeña";
+        perro2.tamanio = "pequeño";
         perro2.caractericticas();
         perro2.dormir();
 
-        Perro perro3 = new Perro();
-        Scanner sc = new Scanner(System.in);
+        Perro perro3 = new Perro("Milaneso");
+        perro3.nombrePerro();
 
+        Perro perro4 = new Perro("Sr. Kawamura", "husky", 4,"grande");
+        perro4.caractericticas();
     }
 }
